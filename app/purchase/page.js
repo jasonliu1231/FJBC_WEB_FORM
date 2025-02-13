@@ -59,6 +59,7 @@ export default function Home() {
       },
       body: JSON.stringify(sendData.current)
     };
+
     const response = await fetch(`${process.env.NEXT_PUBLIC_API}/api/purchase`, config);
     const res = await response.json();
     if (response.ok) {
