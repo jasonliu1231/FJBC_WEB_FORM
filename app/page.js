@@ -17,19 +17,18 @@ export default function Home() {
               </div>
             </span>
           </a>
-          <a
+          {/* <a
             href="./purchase"
             className="col-span-1 w-full bg-green-200 px-8 py-12 rounded-md shadow-2xl block cursor-pointer"
           >
             <span className="text-gray-500">
               採購申請
               <div className="text-sm">Purchase Order Application</div>
-              {/* <div className="text-sm text-red-400">（維修中！申請請先從 ERP 或 APP）</div> */}
               <div className="mt-1 flex justify-center">
                 <CursorArrowRaysIcon className="w-10 h-10" />
               </div>
             </span>
-          </a>
+          </a> */}
           <a
             href="./asklist"
             className="col-span-1 w-full bg-pink-200 px-8 py-12 rounded-md shadow-2xl block cursor-pointer"
