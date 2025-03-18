@@ -53,6 +53,18 @@ export default function Home() {
               </div>
             </span>
           </a>
+          <a
+            href="./attendance"
+            className="col-span-1 w-full bg-green-200 px-8 py-12 rounded-md shadow-2xl block cursor-pointer"
+          >
+            <span className="text-gray-500">
+              教師打卡
+              <div className="text-sm">Attendance Teacher</div>
+              <div className="mt-1 flex justify-center">
+                <CursorArrowRaysIcon className="w-10 h-10" />
+              </div>
+            </span>
+          </a>
         </div>
       </div>
     </>
