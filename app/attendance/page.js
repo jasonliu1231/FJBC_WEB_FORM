@@ -108,7 +108,7 @@ export default function Home() {
               type.current = 1;
               getArrival();
             }}
-            className="mx-4 w-full bg-green-400 px-8 py-12 rounded-md shadow-2xl block cursor-pointer"
+            className="mx-4 w-full bg-green-200 px-8 py-12 rounded-md shadow-2xl block cursor-pointer"
           >
             <div className="text-gray-700 text-4xl font-semibold text-center">
               <div className="">到校</div>
@@ -120,7 +120,7 @@ export default function Home() {
               type.current = 2;
               getLeave();
             }}
-            className="mx-4 w-full bg-pink-400 px-8 py-12 rounded-md shadow-2xl block cursor-pointer"
+            className="mx-4 w-full bg-pink-200 px-8 py-12 rounded-md shadow-2xl block cursor-pointer"
           >
             <div className="text-gray-700 text-4xl font-semibold text-center">
               <div className="">離校</div>
