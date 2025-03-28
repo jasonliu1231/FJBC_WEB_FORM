@@ -7,7 +7,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [list, setList] = useState(true);
   const [query, setQuery] = useState("");
-  const [pass, setPass] = useState(false);
+  const [pass, setPass] = useState(true);
 
   const filteredItems =
     query === ""
