@@ -13,8 +13,8 @@ export default function Home() {
     query === ""
       ? list
       : list.filter((item) => {
-          const name = item.chinese_name.toLowerCase() || "";
-          const en_name = item.english_name.toLowerCase() || "";
+          const name = item.chinese_name?.toLowerCase() || "";
+          const en_name = item.english_name?.toLowerCase() || "";
           return name.includes(query.toLowerCase()) || en_name.includes(query.toLowerCase());
         });
 
